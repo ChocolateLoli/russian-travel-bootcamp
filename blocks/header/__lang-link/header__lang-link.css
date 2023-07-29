@@ -1,18 +1,22 @@
 .header__lang-link {
-  margin: 1 auto;
-  font-size: 1.5em; /* 24px */
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
-}
-
-.header__lang-link:first-of-type {
-  text-decoration-line: underline;
+  line-height: 28px; /* 116.667% */
   margin-right: 18px;
+  text-decoration-line: underline;
 }
 
-@media screen and (max-width: 1024px) {
+.header__lang-link:last-of-type {
+  margin-right: 0;
+  text-decoration-line: none;
+}
+/*
+@media screen and (max-width: 320px) {
   .header__lang-link {
+    font-size: 18px;
     line-height: 20px;
   }
 }
+
+*/
