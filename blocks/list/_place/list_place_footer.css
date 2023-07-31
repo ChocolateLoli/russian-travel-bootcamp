@@ -1,0 +1,15 @@
+.list_place_footer {
+  display: inline;
+}
+
+
+@media screen and (max-width: 320px) {
+  .list_place_footer {
+    display: block;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 32px;
+    margin-right: 0;
+    padding: 0;
+  }
+}
