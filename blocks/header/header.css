@@ -1,23 +1,15 @@
 .header {
-  width: 100%;
-  box-sizing: border-box;
+  height: 108px;
   margin: 0;
-  padding: 28px 48px 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 350px) {
   .header {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .header {
-    padding: 16px 16px 0;
+    height: 74px;
   }
 }
