@@ -1,0 +1,15 @@
+.list_place_footer {
+  display: inline;
+}
+
+@media screen and (max-width: 680px) {
+  .list_place_footer {
+    display: block;
+    margin: 0 0 32px 0;
+    padding: 0;
+  }
+
+  .list_place_footer:last-of-type {
+    margin-bottom: 48px;
+  }
+}
