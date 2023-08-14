@@ -1,0 +1,17 @@
+.content-section {
+  width: 76.875vw;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .content-section {
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .content-section {
+    width: 100vw;
+  }
+}

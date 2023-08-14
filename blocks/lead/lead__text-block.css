@@ -1,0 +1,7 @@
+.lead__text-block {
+  margin: 28px 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
