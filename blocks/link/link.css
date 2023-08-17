@@ -4,3 +4,7 @@
   z-index: 2;
   cursor: pointer;
 }
+
+.link:hover {
+  text-decoration-line: underline;
+}
