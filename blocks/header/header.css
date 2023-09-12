@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 1281x) {
+@media screen and (min-width: 1281px) {
   .header {
     width: 1182px;
   }
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 780px) {
   .header {
-    width: calc(100% - 48x);
+    width: calc(100% - 48px);
   }
 }
 
