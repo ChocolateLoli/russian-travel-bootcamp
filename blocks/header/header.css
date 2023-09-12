@@ -1,11 +1,31 @@
 .header {
-  margin: 28px 0;
+  width: calc(100% - (96px));
+  margin: 28px auto;
   padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
 }
+
+@media screen and (min-width: 1281x) {
+  .header {
+    width: 1182px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .header {
+    width: calc(100% - 48x);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    width: calc(100% - 32px);
+  }
+}
+
 
 @media screen and (max-width: 350px) {
   .header {
