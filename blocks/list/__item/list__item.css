@@ -4,6 +4,10 @@
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
-  line-height: 18px;   /* 150% */
+  line-height: 18px;
   text-align: start;
+}
+
+.list__item:last-of-type {
+  margin-right: 0;
 }

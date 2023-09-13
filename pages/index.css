@@ -9,7 +9,6 @@
 @import url('../blocks/list/__digit-span/list__digit-span.css');
 @import url('../blocks/list/__item/list__item.css');
 @import url('../blocks/list/__item/_place/list__item_place_footer.css');
-@import url('../blocks/list/__item/_nth/list__item_nth_last.css');
 
 @import url('../blocks/content-section/content-section.css');
 
@@ -18,7 +17,7 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__conteiner/header__conteiner.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
-@import url('../blocks/header/__lang-link/_ru/header__lang-link_lang_ru.css');
+@import url('../blocks/header/__lang-link/_page-language/header__lang-link_page-language.css');
 @import url('../blocks/header/__logo/header__logo.css');
 
 /* lead */
