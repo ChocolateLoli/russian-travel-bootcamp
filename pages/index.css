@@ -23,7 +23,6 @@
 
 /* lead */
 
-@import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__title/lead__title.css');
 @import url('../blocks/lead/__subtitle/lead__subtitle.css');
 @import url('../blocks/lead/__img-block/lead__img-block.css');
